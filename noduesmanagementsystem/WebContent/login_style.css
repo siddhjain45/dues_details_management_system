@@ -1,0 +1,76 @@
+#img_box
+{
+    left:0%;
+    right:0%;
+    width:10px;
+    height:10px;
+}
+#box
+{
+    text-decoration:solid;
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 400px;
+    padding: 40px 30px;
+    box-sizing: border-box;
+    background-color: rgba(255, 22, 22, 0.5);
+}
+p
+{
+    font-size: 22;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+     
+}
+#t1
+{
+    
+    text-align: center;
+    text-decoration: solid;
+    border-radius: 20px;
+    margin:10px;
+    border:none;
+    outline:none;
+    border-bottom: solid 2px black;
+    font-size:18px;
+    background-color: transparent;
+    height:40px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#pass
+{
+    
+    text-align: center;
+    text-decoration: solid;
+    border-radius: 20px;
+    margin:10px;
+    border:none;
+    outline:none;
+    border-bottom: solid 2px black;
+    font-size:18px;
+    background-color: transparent;
+    height:40px;
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#login
+{
+    border-radius:10px;
+    height:50px;
+    font-size:30;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(238, 9, 54);
+    color:white;
+    outline:none;
+    margin:5px;
+    cursor:pointer;
+}
+#login:hover
+{
+    background-color:chocolate;
+}
